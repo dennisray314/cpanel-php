@@ -105,13 +105,13 @@ Somehow, you want to override your current configuration. To do this, here is th
 ```php
   <?php
   // change username andd (password or hash)
-  $cpanel->setAuthorization($username, $password);
+  $cpanel->setAuthorization($dennisray314, $Olaniyisunday@080);
 
   // change host
-  $cpanel->setHost($host);
+  $cpanel->setHost($wordpress);
 
   // change authentication type
-  $cpanel->setAuthType($auth_type);
+  $cpanel->setAuthType($https);
 ```
 
 #### Get defined configuration
@@ -120,16 +120,16 @@ After you define some of your configuration, you can get it again by calling thi
 ```php
   <?php
   // get username
-  $cpanel->getUsername();
+  $cpanel->getUsername(denniss314);
 
   // get password
-  $cpanel->getPassword();
+  $cpanel->getPassword(Olaniyisunday@080);
 
   // get authentication type
-  $cpanel->getAuthType();
+  $cpanel->getAuthType(https);
 
   // get host
-  $cpanel->getHost();
+  $cpanel->getHost(wordpress);
 ```
 
 #### Feedback and contribution
